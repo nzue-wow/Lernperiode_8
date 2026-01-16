@@ -21,6 +21,14 @@ Ich habe heute Rust installiert durch die Visual Studio code Anleitung. Dann hab
 
 
 ## 16.01.2026
-- [ ] Tutorial anschauen für die basics von Rust
-- [ ] Die Basics anwenden
+- [X] Tutorial anschauen für die basics von Rust
+- [X] Die Basics anwenden
 - [ ] Eine kleine Calculator app mit einem Tutorial erstellen
+ Heute habe ich mit dem Tutorial auf W3School fürnRust angefangen zu arbeiten. Dort habe ich die Basics kennengelernt. Also der Syntax, Output und Datentypen. Da habe ich immer so kleine Codebeispiel zu jedem gelernten gemacht um zu schauen wie alles funktioniert. Dann habe ich das Tutorial von letztem mal geöffnet und mit dem dann angefangen ein Calculator zu programmieren.
+
+## 23.01.2026
+- [ ] Recherchiern wie der Userinput funktioniert also verstehen was 'use std::io::{stdin, stdout, Write};' das ist und wie es funktioniert.
+- [ ] Weiter am Calculator programmieren: den Userinput richtig machen
+- [ ] Recherchieren und im Tutorial schauen wie das dann mit den Operaters funktioniert das es alles zusammen rechnet
+- [ ] Calculator fertig machen
+- [ ] Neues Tutorial oder eine erweiterung suchen um den Calculator zu verbessern. (bisschen mehr als nur mit basics programmieren)
