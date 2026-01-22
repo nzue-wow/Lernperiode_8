@@ -28,10 +28,10 @@ Ich habe heute Rust installiert durch die Visual Studio code Anleitung. Dann hab
  Heute habe ich mit dem Tutorial auf W3School fürnRust angefangen zu arbeiten. Dort habe ich die Basics kennengelernt. Also der Syntax, Output und Datentypen. Da habe ich immer so kleine Codebeispiel zu jedem gelernten gemacht um zu schauen wie alles funktioniert. Dann habe ich das Tutorial von letztem mal geöffnet und mit dem dann angefangen ein Calculator zu programmieren.
 
 ## 23.01.2026
-- [x] Recherchiern wie der Userinput funktioniert also verstehen was 'use std::io;' das ist und wie es funktioniert.
+- [x] Recherchiern wie der Userinput funktioniert also verstehen was `use std::io;` das ist und wie es funktioniert.
 - [x] Weiter am Calculator programmieren: den Userinput richtig machen
 - [x] Recherchieren und im Tutorial schauen wie das dann mit den Operaters funktioniert das es alles zusammen rechnet
 - [x] Calculator fertig machen
 - [x] Neues Tutorial oder eine erweiterung suchen um den Calculator zu verbessern. (bisschen mehr als nur mit basics programmieren)
 
-Heute habe ich mir angschaut wie der Userinput geht mit diesem erklärungs video: https://www.youtube.com/watch?v=PQBX-ev5q2k . 'use std::io;' ist ein packet von code wo man hinzufügt also wie eine library. 'io' ist input output. Ich habe dann den Userinput in meinem Taschenrechner gebraucht. Dann habe ich recherchiert wie man die operatoren gebraucht. ' "+" => first_number + second_number,' Dann habe ich den  Calculator fertig. Mit einem anderen Tutorial habe ich dann noch mein Calculator bisschen verbessert indem ich beim '/' gemacht habe das man nicht durch 0 teilen kann. Dann kommt jetzt eine fehlermeldung und ich habe überall noch 'expect("Failed to read line");' nach den read_line gemacht das es kein error gibt.
+Heute habe ich mir angschaut wie der Userinput geht mit diesem erklärungs video: https://www.youtube.com/watch?v=PQBX-ev5q2k . `use std::io;` ist ein packet von code wo man hinzufügt also wie eine library. `io` ist input output. Ich habe dann den Userinput in meinem Taschenrechner gebraucht. Dann habe ich recherchiert wie man die operatoren gebraucht. ` "+" => first_number + second_number,` Dann habe ich den  Calculator fertig. Mit einem anderen Tutorial habe ich dann noch mein Calculator bisschen verbessert indem ich beim `/` gemacht habe das man nicht durch 0 teilen kann. Dann kommt jetzt eine fehlermeldung und ich habe überall noch `expect("Failed to read line");` nach den read_line gemacht das es kein error gibt.
