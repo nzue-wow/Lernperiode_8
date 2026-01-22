@@ -24,6 +24,7 @@ Ich habe heute Rust installiert durch die Visual Studio code Anleitung. Dann hab
 - [X] Tutorial anschauen für die basics von Rust
 - [X] Die Basics anwenden
 - [ ] Eine kleine Calculator app mit einem Tutorial erstellen
+
  Heute habe ich mit dem Tutorial auf W3School fürnRust angefangen zu arbeiten. Dort habe ich die Basics kennengelernt. Also der Syntax, Output und Datentypen. Da habe ich immer so kleine Codebeispiel zu jedem gelernten gemacht um zu schauen wie alles funktioniert. Dann habe ich das Tutorial von letztem mal geöffnet und mit dem dann angefangen ein Calculator zu programmieren.
 
 ## 23.01.2026
