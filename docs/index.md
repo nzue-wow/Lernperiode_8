@@ -236,15 +236,14 @@ Example output:
 Calculator
 -------------
 Enter first number:
-10
+2
 Enter operator (+, -, *, /):
 *
 Enter second number:
-5
-Result: 50
+3
+Result: 6
 ```
 
-You can add a `.gif` here showing the terminal execution:
 
 
 ![Bildschirmaufnahme 2026-02-13 102750](https://github.com/user-attachments/assets/1f0c5ac0-8b31-450d-b842-140ae99009b5)
@@ -336,7 +335,7 @@ This is because `read_line()` stores a newline character (`\n`).
 
 # Conclusion
 
-You have successfully created a simple console calculator in Rust 🎉
+You have successfully created a simple console calculator in Rust 
 
 You learned:
 
