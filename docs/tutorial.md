@@ -255,41 +255,82 @@ You can add a `.gif` here showing the terminal execution:
 
 # What Could Go Wrong?
 
-## 1. Invalid Number Input
-
-If the user enters:
-
-```
-abc
-```
-
-The program will panic because `.parse()` cannot convert it into `f64`.
+Here are some common mistakes that can happen while coding:
 
 ---
 
-## 2. Division by Zero
+## 1. Forgetting `mut`
 
-If the second number is `0`, the program prints:
+If you write:
+
+```rust
+let first_input = String::new();
+```
+
+instead of:
+
+```rust
+let mut first_input = String::new();
+```
+
+You will get an error like:
 
 ```
-Error: Division by zero is not allowed.
+cannot borrow as mutable
 ```
+
+This happens because `read_line()` needs a mutable reference (`&mut`).
+If the variable is not declared as `mut`, Rust does not allow it to be changed.
 
 ---
 
-## 3. Invalid Operator
+## 2. Forgetting to Import `std::io`
 
-If the user enters:
+If you forget this line:
 
-```
-%
+```rust
+use std::io;
 ```
 
-The program prints:
+You will get an error saying that `io` cannot be found.
 
+Rust needs this import to use `stdin()`.
+
+---
+
+## 3. Type Mismatch Errors
+
+If you try to calculate using `String` instead of converting to `f64`, like this:
+
+```rust
+let result = first_input + second_input;
 ```
-Error: Invalid operator.
+
+It will not compile.
+
+Rust does not allow adding strings like numbers.
+You must convert them using `.parse()` first.
+
+---
+
+## 4. Missing `.trim()`
+
+If you forget:
+
+```rust
+operator_input.trim()
 ```
+
+and just write:
+
+```rust
+match operator_input {
+```
+
+The program may not recognize the operator correctly.
+
+This is because `read_line()` stores a newline character (`\n`).
+`.trim()` removes that invisible character.
 
 ---
 
