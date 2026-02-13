@@ -246,10 +246,10 @@ Result: 50
 
 You can add a `.gif` here showing the terminal execution:
 
-```
+
 ![Bildschirmaufnahme 2026-02-13 102750](https://github.com/user-attachments/assets/1f0c5ac0-8b31-450d-b842-140ae99009b5)
 
-```
+
 
 ---
 
