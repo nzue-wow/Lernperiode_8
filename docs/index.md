@@ -244,9 +244,8 @@ Enter second number:
 Result: 6
 ```
 
+![Bildschirmaufnahme 2026-02-13 102750 (1)](https://github.com/user-attachments/assets/3af9cbce-ea9f-4929-bedb-99adfd33cc7e)
 
-
-![Bildschirmaufnahme 2026-02-13 102750](https://github.com/user-attachments/assets/1f0c5ac0-8b31-450d-b842-140ae99009b5)
 
 
 
